@@ -10,40 +10,18 @@
       </div>
     </div>
     <div class="row text-center">
-      {%}
+      {% for services in site.services %}
       <div class="col-md-4">
         <span class="fa-stack fa-4x">
           <i class="fa fa-circle fa-stack-2x text-primary"></i>
-          <i class="fa fa-home fa-stack-1x fa-inverse"></i>
+          <i class="fa fa-{{ services.icon }} fa-stack-1x fa-inverse"></i>
         </span>
-        <h4 class="service-heading"></h4>
+        <h4 class="service-heading">{{ services.type }}</h4>
         <p class="text-muted">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-          maxime quam architecto quo inventore harum ex magni, dicta impedit.
+          {{ services.description }}
         </p>
       </div>
-      <div class="col-md-4">
-        <span class="fa-stack fa-4x">
-          <i class="fa fa-circle fa-stack-2x text-primary"></i>
-          <i class="fa fa-briefcase fa-stack-1x fa-inverse"></i>
-        </span>
-        <h4 class="service-heading">Sell</h4>
-        <p class="text-muted">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-          maxime quam architecto quo inventore harum ex magni, dicta impedit.
-        </p>
-      </div>
-      <div class="col-md-4">
-        <span class="fa-stack fa-4x">
-          <i class="fa fa-circle fa-stack-2x text-primary"></i>
-          <i class="fa fa-university fa-stack-1x fa-inverse"></i>
-        </span>
-        <h4 class="service-heading">Loan</h4>
-        <p class="text-muted">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-          maxime quam architecto quo inventore harum ex magni, dicta impedit.
-        </p>
-      </div>
+      {% endfor %}
     </div>
   </div>
 </section>

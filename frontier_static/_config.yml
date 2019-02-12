@@ -18,8 +18,8 @@ baseurl: '' # the subpath of your site, e.g. /blog
 url: '' # the base hostname & protocol for your site, e.g. http://example.com
 host: localhost
 
-title: Your awesome title
-email: your-email@example.com
+title: Frontier Realty
+email: info@frontierRealty.com
 description: 'Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.'
 
 carousel:
@@ -29,7 +29,7 @@ carousel:
   - pic: 4
 
 #Services provided by the Office:
-service:
+services:
   - type: Buy
     description: something something fake fake fake with a load of fake stuff for placeholder content.
     icon: home
