@@ -23,10 +23,11 @@ email: info@frontierRealty.com
 description: 'Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.'
 
 carousel:
-  - pic: 1
   - pic: 2
   - pic: 3
   - pic: 4
+  - pic: 5
+  - pic: 6
 
 #Services provided by the Office:
 services:
