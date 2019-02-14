@@ -5,9 +5,12 @@
  */
 
 
-.test {
-	float: 
+.carousel-img {
+	height: 20rem;
+	width: 20rem; 
 }
+
+
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
