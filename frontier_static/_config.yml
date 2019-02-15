@@ -32,29 +32,29 @@ carousel:
 #Services provided by the Office:
 services:
   - type: Buy
-    description: something something fake fake fake with a load of fake stuff for placeholder content.
+    description: something something fake fake fake with a load of fake stuff for placeholder content. something something fake fake fake with a load of fake stuff for placeholder content.
     icon: home
 
   - type: Sell
-    description: something something fake fake fake with a load of fake stuff for placeholder content.
+    description: something something fake fake fake with a load of fake stuff for placeholder content. something something fake fake fake with a load of fake stuff for placeholder content.
     icon: briefcase
 
   - type: Loan
-    description: something something fake fake fake with a load of fake stuff for placeholder content.
+    description: something something fake fake fake with a load of fake stuff for placeholder content. something something fake fake fake with a load of fake stuff for placeholder content.
     icon: university
 
 #Real Estate Education
 education:
   - program: How to Buy
-    description: something something fake fake fake with a load of fake stuff for placeholder content.
+    description: something something fake fake fake with a load of fake stuff for placeholder content.I actually want to write a lot of these things and information to make sure that I can get the correct information.
     icon: home
 
   - program: How to Sell
-    description: something something fake fake fake with a load of fake stuff for placeholder content.
+    description: something something fake fake fake with a load of fake stuff for placeholder content.I actually want to write a lot of these things and information to make sure that I can get the correct information.
     icon: home
 
   - program: How to Invest
-    description: something something fake fake fake with a load of fake stuff for placeholder content.
+    description: something something fake fake fake with a load of fake stuff for placeholder content.I actually want to write a lot of these things and information to make sure that I can get the correct information.
     icon: home
 
   # - program: How to Real Estate
