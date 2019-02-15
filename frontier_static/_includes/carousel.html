@@ -1,8 +1,9 @@
 <!-- Carousel-->
-<section class="carousel">
+<section id="carousel">
   {% for images in site.carousel %}
-  <div class="carousel-img">
-    <img class="carousel-img" src="img/carousel/{{ images.pic }}.jpg" />
-  </div>
+  <div
+    class="carousel-img slick-arrow"
+    style="background-image: url('img/carousel/{{ images.pic }}.jpeg')"
+  ></div>
   {% endfor %}
 </section>

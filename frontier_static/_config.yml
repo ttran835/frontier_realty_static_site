@@ -43,7 +43,28 @@ services:
     description: something something fake fake fake with a load of fake stuff for placeholder content.
     icon: university
 
-# Team names, titles and social links
+#Real Estate Education
+education:
+  - program: How to Buy
+    description: something something fake fake fake with a load of fake stuff for placeholder content.
+    icon: home
+
+  - program: How to Sell
+    description: something something fake fake fake with a load of fake stuff for placeholder content.
+    icon: home
+
+  - program: How to Invest
+    description: something something fake fake fake with a load of fake stuff for placeholder content.
+    icon: home
+
+  # - program: How to Real Estate
+  #   description: something something fake fake fake with a load of fake stuff for placeholder content.
+  #   icon: home
+
+# Team names, description, titles and social links
+team:
+  - description: something something fake fake fake with a load of fake stuff for placeholder content.
+
 people:
   - name: Kay Garland
     pic: 1

@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('.carousel').slick({
+  $('#carousel').slick({
     centerMode: true,
     centerPadding: '60px',
     slidesToShow: 3,
@@ -7,19 +7,21 @@ $(document).ready(function() {
       {
         breakpoint: 768,
         settings: {
-          arrows: false,
+          arrows: true,
           centerMode: true,
           centerPadding: '40px',
           slidesToShow: 3,
+          dots: true,
         },
       },
       {
         breakpoint: 480,
         settings: {
-          arrows: false,
+          arrows: true,
           centerMode: true,
           centerPadding: '40px',
           slidesToShow: 1,
+          dots: true,
         },
       },
     ],
