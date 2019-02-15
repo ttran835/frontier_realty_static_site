@@ -74,14 +74,7 @@ people:
         url: #
       - title: linkedin
         url: #
-  - name: Kay Garland
-    pic: 1
-    position: Lead Designer
-    social:
-      - title: facebook
-        url: #
-      - title: linkedin
-        url: #
+    description: something someone, who has worked at the company for a long time blah blah blah lead lead lead leader stuff
 
   - name: Kay Garland
     pic: 1
@@ -91,6 +84,7 @@ people:
         url: #
       - title: linkedin
         url: #
+    description: something someone, who has worked at the company for a long time blah blah blah lead lead lead leader stuff
 
   - name: Kay Garland
     pic: 1
@@ -100,6 +94,17 @@ people:
         url: #
       - title: linkedin
         url: #
+    description: something someone, who has worked at the company for a long time blah blah blah lead lead lead leader stuff
+
+  - name: Kay Garland
+    pic: 1
+    position: Lead Designer
+    social:
+      - title: facebook
+        url: #
+      - title: linkedin
+        url: #
+    description: something someone, who has worked at the company for a long time blah blah blah lead lead lead leader stuff
 
   - name: Larry Parker
     pic: 2
@@ -109,6 +114,7 @@ people:
         url: #
       - title: linkedin
         url: #
+    description: something someone, who has worked at the company for a long time blah blah blah lead lead lead leader stuff
 
   - name: Diana Petersen
     pic: 3
@@ -116,10 +122,61 @@ people:
     social:
       - title: facebook
         url: #
-      - title: google-plus
+      - title: linkedin
         url: #
+    description: something someone, who has worked at the company for a long time blah blah blah lead lead lead leader stuff
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+  - name: Diana Petersen
+    pic: 3
+    position: Lead Developer
+    social:
+      - title: facebook
+        url: #
+      - title: linkedin
+        url: #
+    description: something someone, who has worked at the company for a long time blah blah blah lead lead lead leader stuff
+
+  - name: Diana Petersen
+    pic: 3
+    position: Lead Developer
+    social:
+      - title: facebook
+        url: #
+      - title: linkedin
+        url: #
+    description: something someone, who has worked at the company for a long time blah blah blah lead lead lead leader stuff
+
+  - name: Diana Petersen
+    pic: 3
+    position: Lead Developer
+    social:
+      - title: facebook
+        url: #
+      - title: linkedin
+        url: #
+    description: something someone, who has worked at the company for a long time blah blah blah lead lead lead leader stuff
+
+  - name: Diana Petersen
+    pic: 3
+    position: Lead Developer
+    social:
+      - title: facebook
+        url: #
+      - title: linkedin
+        url: #
+    description: something someone, who has worked at the company for a long time blah blah blah lead lead lead leader stuff
+
+  - name: Diana Petersen
+    pic: 3
+    position: Lead Developer
+    social:
+      - title: facebook
+        url: #
+      - title: linkedin
+        url: #
+    description: something someone, who has worked at the company for a long time blah blah blah lead lead lead leader stuff
+
+# Social networks usernames (many more available: linkedin, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: facebook
     url:
