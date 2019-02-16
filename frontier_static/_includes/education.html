@@ -1,0 +1,33 @@
+<!--Education section-->
+<section id="education" class="bg-light-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Education</h2>
+        <h3 class="section-subheading text-muted">
+          This is where you would list out what you want to say about the real
+          estate program and what type of services will be offered This is where
+          you would list out what you want to say about the real estate program
+          and what type of services will be offered This is where you would list
+          out what you want to say about the real estate program and what type
+          of services will be offered
+        </h3>
+      </div>
+    </div>
+    <div class="row text-center">
+      {% for education in site.education %}
+      <div class="col-sm-4 col">
+        <div class="material-ui">
+          <span class="fa-stack fa-4x">
+            <i class="fa fa-{{ education.icon }} fa-stack-1x"></i>
+          </span>
+          <h4 class="heading">{{ education.program }}</h4>
+          <p class="text-muted">
+            {{ education.description }}
+          </p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
