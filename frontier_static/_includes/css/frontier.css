@@ -10,7 +10,7 @@ body {
 
 .slick-prev:before,
 .slick-next:before {
-  color: #222;
+  color: #0daded !important;
 }
 
 .text-muted {
@@ -18,7 +18,7 @@ body {
 }
 
 .text-primary {
-  color: #007bff !important;
+  color: #0daded !important;
 }
 
 p {
@@ -416,7 +416,7 @@ section h3.section-subheading {
 }
 
 #education .material-ui {
-  background-color: #007bff !important;
+  background-color: #0daded !important;
   cursor: pointer;
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
     0 1px 2px rgba(0, 0, 0, 0.24);
