@@ -4,12 +4,21 @@ body {
   color: #333;
 }
 
+.slick-slide {
+  outline: none;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #0daded !important;
+}
+
 .text-muted {
   color: #777;
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: #0daded !important;
 }
 
 p {
@@ -55,9 +64,9 @@ h6 {
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
     0 1px 2px rgba(0, 0, 0, 0.24);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  -webkit-transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
-  -o-transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
-  transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  -o-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   -webkit-transform: scale(0.9);
   -ms-transform: scale(0.9);
   transform: scale(0.9);
@@ -407,14 +416,15 @@ section h3.section-subheading {
 }
 
 #education .material-ui {
-  background-color: #fff;
+  background-color: #0daded !important;
   cursor: pointer;
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
     0 1px 2px rgba(0, 0, 0, 0.24);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  -webkit-transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
-  -o-transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
-  transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  -o-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  overflow: hidden;
 }
 
 #education .material-ui:hover {
@@ -425,32 +435,34 @@ section h3.section-subheading {
 
 #education .material-ui p {
   opacity: 0;
-  -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  -webkit-transition: all 0.5s linear;
-  -o-transition: all 0.5s linear;
-  transition: all 0.5s linear;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
   position: relative;
   bottom: 0;
   background-color: #fff;
-  height: 65px;
+  height: 100%;
   width: 100%;
 }
 
 #education .material-ui:hover > p {
   opacity: 1;
   position: relative;
-  bottom: 2.5rem;
+  bottom: 36px;
   background-color: #fff;
-  height: 65px;
+  height: 100%;
   width: 100%;
+  margin-bottom: 0;
+  padding-top: 20px;
 }
 
 #education .material-ui .heading {
   opacity: 1;
-  -webkit-transition: all 0.5s linear;
-  -o-transition: all 0.5s linear;
-  transition: all 0.5s linear;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
   margin: 15px 0;
   text-transform: none;
 }
@@ -478,9 +490,9 @@ section h3.section-subheading {
   width: 100%;
   height: 100%;
   opacity: 0;
-  -webkit-transition: all ease 0.5s;
-  -o-transition: all ease 0.5s;
-  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  transition: all ease 0.3s;
   background: rgba(254, 209, 54, 0.9); /* Fallback when no plugin support */
   background: rgba(
     {{site.data.template.color.primary | hex_to_rgb | join: ','}},
@@ -773,6 +785,38 @@ section h3.section-subheading {
   }
 }
 
+#team .team-img {
+  background-size: cover;
+  height: 15rem;
+  background-repeat: no-repeat;
+}
+
+#team .material-ui {
+  cursor: pointer;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
+    0 1px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  -o-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  overflow: hidden;
+}
+
+#team .material-ui:hover {
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+#team li {
+  margin: 5px;
+}
+
+#team ul {
+  display: flex;
+  justify-content: center;
+}
+
 .team-member {
   margin-bottom: 50px;
   text-align: center;
@@ -904,7 +948,7 @@ ul.social-buttons li a {
   line-height: 40px;
   outline: 0;
   color: #fff;
-  background-color: #222;
+  background-color: #007bff;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
@@ -913,7 +957,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #fed136;
+  background-color: #fff;
 }
 
 .btn:focus,
