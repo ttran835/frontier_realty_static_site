@@ -74,7 +74,12 @@ people:
         url: #
       - title: linkedin
         url: #
-    description: something someone, who has worked at the company for a long time blah blah blah lead lead lead leader stuff
+    contact:
+      - phone:
+      - phoneicon:
+      - email:
+      - emailicon:
+    bre: 12345
 
   - name: Kay Garland
     pic: 1
@@ -84,7 +89,12 @@ people:
         url: #
       - title: linkedin
         url: #
-    description: something someone, who has worked at the company for a long time blah blah blah lead lead lead leader stuff
+    contact:
+      - phone:
+      - phoneicon:
+      - email:
+      - emailicon:
+    bre: 12345
 
   - name: Kay Garland
     pic: 1
@@ -94,7 +104,12 @@ people:
         url: #
       - title: linkedin
         url: #
-    description: something someone, who has worked at the company for a long time blah blah blah lead lead lead leader stuff
+    contact:
+      - phone:
+      - phoneicon:
+      - email:
+      - emailicon:
+    bre: 12345
 
   - name: Kay Garland
     pic: 1
@@ -104,7 +119,12 @@ people:
         url: #
       - title: linkedin
         url: #
-    description: something someone, who has worked at the company for a long time blah blah blah lead lead lead leader stuff
+    contact:
+      - phone:
+      - phoneicon:
+      - email:
+      - emailicon:
+    bre: 12345
 
   - name: Larry Parker
     pic: 2
@@ -114,7 +134,12 @@ people:
         url: #
       - title: linkedin
         url: #
-    description: something someone, who has worked at the company for a long time blah blah blah lead lead lead leader stuff
+    contact:
+      - phone:
+      - phoneicon:
+      - email:
+      - emailicon:
+    bre: 12345
 
   - name: Diana Petersen
     pic: 3
@@ -124,7 +149,12 @@ people:
         url: #
       - title: linkedin
         url: #
-    description: something someone, who has worked at the company for a long time blah blah blah lead lead lead leader stuff
+    contact:
+      - phone:
+      - phoneicon:
+      - email:
+      - emailicon:
+    bre: 12345
 
   - name: Diana Petersen
     pic: 3
@@ -134,7 +164,12 @@ people:
         url: #
       - title: linkedin
         url: #
-    description: something someone, who has worked at the company for a long time blah blah blah lead lead lead leader stuff
+    contact:
+      - phone:
+      - phoneicon:
+      - email:
+      - emailicon:
+    bre: 12345
 
   - name: Diana Petersen
     pic: 3
@@ -144,7 +179,12 @@ people:
         url: #
       - title: linkedin
         url: #
-    description: something someone, who has worked at the company for a long time blah blah blah lead lead lead leader stuff
+    contact:
+      - phone:
+      - phoneicon:
+      - email:
+      - emailicon:
+    bre: 12345
 
   - name: Diana Petersen
     pic: 3
@@ -154,7 +194,12 @@ people:
         url: #
       - title: linkedin
         url: #
-    description: something someone, who has worked at the company for a long time blah blah blah lead lead lead leader stuff
+    contact:
+      - phone:
+      - phoneicon:
+      - email:
+      - emailicon:
+    bre: 12345
 
   - name: Diana Petersen
     pic: 3
@@ -164,7 +209,12 @@ people:
         url: #
       - title: linkedin
         url: #
-    description: something someone, who has worked at the company for a long time blah blah blah lead lead lead leader stuff
+    contact:
+      - phone:
+      - phoneicon:
+      - email:
+      - emailicon:
+    bre: 12345
 
   - name: Diana Petersen
     pic: 3
@@ -174,7 +224,12 @@ people:
         url: #
       - title: linkedin
         url: #
-    description: something someone, who has worked at the company for a long time blah blah blah lead lead lead leader stuff
+    contact:
+      - phone:
+      - phoneicon:
+      - email:
+      - emailicon:
+    bre: 12345
 
 # Social networks usernames (many more available: linkedin, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
