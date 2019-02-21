@@ -3,3 +3,14 @@ _site
 .jekyll-metadata
 
 img
+
+_config.yml
+node_modules/ 
+
+Gemfile
+Gemfile.lock
+node_modules
+vendor/bundle/
+vendor/cache/
+vendor/gems/
+vendor/ruby/
