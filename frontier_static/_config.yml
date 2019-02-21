@@ -68,7 +68,7 @@ team:
 
 people:
   - name: Jack Luan Tran
-    pic: 1
+    pic: Jack
     position: Broker/C.E.O
     social:
       - title: facebook
@@ -83,7 +83,7 @@ people:
     bre: 01852802
 
   - name: Richard Le
-    pic: 1
+    pic: Richard
     position: Realtor
     social:
       - title: facebook
@@ -98,7 +98,7 @@ people:
     bre: 02044899
 
   - name: Carol Chau
-    pic: 1
+    pic: Carol
     position: Realtor
     social:
       - title: facebook
@@ -113,7 +113,7 @@ people:
     bre: 02010924
 
   - name: Trung Do
-    pic: 1
+    pic: Trung
     position: Realtor
     social:
       - title: facebook
@@ -128,7 +128,7 @@ people:
     bre: 02052647
 
   - name: Molly Dinh
-    pic: 2
+    pic: Molly
     position: Realtor
     social:
       - title: facebook
@@ -143,7 +143,7 @@ people:
     bre: 02047175
 
   - name: Jason Tang
-    pic: 3
+    pic: Jason
     position: Realtor
     social:
       - title: facebook
@@ -158,7 +158,7 @@ people:
     bre: 01932186
 
   - name: Linda Le
-    pic: 3
+    pic: Linda
     position: Realtor
     social:
       - title: facebook
@@ -173,7 +173,7 @@ people:
     bre: 01809137
 
   - name: Hiep Do
-    pic: 3
+    pic: Hiep
     position: Realtor, Architecture
     social:
       - title: facebook
@@ -188,7 +188,7 @@ people:
     bre: 02049706
 
   - name: Michael Lee
-    pic: 3
+    pic: Michael
     position: Realtor
     social:
       - title: facebook
