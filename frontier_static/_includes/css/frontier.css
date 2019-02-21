@@ -822,6 +822,8 @@ section h3.section-subheading {
 }
 
 .team-member {
+  background-color: #0daded !important;
+  color: #fff;
   margin-bottom: 50px;
   text-align: center;
 }

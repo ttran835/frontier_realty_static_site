@@ -20,6 +20,13 @@
           <h4>{{ team.name }}</h4>
           <p class="text-muted">{{ team.position }}</p>
           <p>BRE#: {{ team.bre }}</p>
+          {% for contact in team.contacts %}
+
+          <i class="fas fa-{{ contact.phoneicon }}">
+            <p>{{ contact.phone }}</p>
+          </i>
+
+          {% endfor %}
         </div>
       </div>
       {% endfor %}

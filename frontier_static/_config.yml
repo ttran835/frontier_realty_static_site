@@ -19,7 +19,8 @@ url: '' # the base hostname & protocol for your site, e.g. http://example.com
 host: localhost
 
 title: Frontier Realty
-email: info@frontierRealty.com
+email:
+  - emailicon: info@frontierRealty.com
 description: 'Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.'
 
 carousel:
@@ -66,170 +67,215 @@ team:
   - description: something something fake fake fake with a load of fake stuff for placeholder content.
 
 people:
-  - name: Kay Garland
+  - name: Jack Luan Tran
     pic: 1
-    position: Lead Designer
+    position: Broker/C.E.O
     social:
       - title: facebook
         url: #
       - title: linkedin
         url: #
-    contact:
-      - phone:
-      - phoneicon:
-      - email:
-      - emailicon:
-    bre: 12345
+    contacts:
+      - phoneicon: phone
+      - phone: ': 714-360-5098'
+      # - email:
+      # - emailicon:
+    bre: 01852802
 
-  - name: Kay Garland
+  - name: Richard Le
     pic: 1
-    position: Lead Designer
+    position: Realtor
     social:
       - title: facebook
         url: #
       - title: linkedin
         url: #
-    contact:
-      - phone:
-      - phoneicon:
-      - email:
-      - emailicon:
-    bre: 12345
+    contacts:
+      - phoneicon: phone
+      - phone: ': 714-468-7363'
+      # - email:
+      # - emailicon:
+    bre: 02044899
 
-  - name: Kay Garland
+  - name: Carol Chau
     pic: 1
-    position: Lead Designer
+    position: Realtor
     social:
       - title: facebook
         url: #
       - title: linkedin
         url: #
-    contact:
-      - phone:
-      - phoneicon:
-      - email:
-      - emailicon:
-    bre: 12345
+    contacts:
+      - phoneicon: phone
+      - phone: ': 714-858-4450'
+      # - email:
+      # - emailicon:
+    bre: 02010924
 
-  - name: Kay Garland
+  - name: Trung Do
     pic: 1
-    position: Lead Designer
+    position: Realtor
     social:
       - title: facebook
         url: #
       - title: linkedin
         url: #
-    contact:
-      - phone:
-      - phoneicon:
-      - email:
-      - emailicon:
-    bre: 12345
+    contacts:
+      - phoneicon: phone
+      - phone: ': 714-725-1615'
+      # - email:
+      # - emailicon:
+    bre: 02052647
 
-  - name: Larry Parker
+  - name: Molly Dinh
     pic: 2
-    position: Lead Marketer
+    position: Realtor
     social:
       - title: facebook
         url: #
       - title: linkedin
         url: #
-    contact:
-      - phone:
-      - phoneicon:
-      - email:
-      - emailicon:
-    bre: 12345
+    contacts:
+      - phoneicon: phone
+      - phone: ': 949-939-4470'
+      # - email:
+      # - emailicon:
+    bre: 02047175
 
-  - name: Diana Petersen
+  - name: Jason Tang
     pic: 3
-    position: Lead Developer
+    position: Realtor
     social:
       - title: facebook
         url: #
       - title: linkedin
         url: #
-    contact:
-      - phone:
-      - phoneicon:
-      - email:
-      - emailicon:
-    bre: 12345
+    contacts:
+      - phoneicon: phone
+      - phone: ': 949-690-6229'
+      # - email:
+      # - emailicon:
+    bre: 01932186
 
-  - name: Diana Petersen
+  - name: Linda Le
     pic: 3
-    position: Lead Developer
+    position: Realtor
     social:
       - title: facebook
         url: #
       - title: linkedin
         url: #
-    contact:
-      - phone:
-      - phoneicon:
-      - email:
-      - emailicon:
-    bre: 12345
+    contacts:
+      - phoneicon: phone
+      - phone: ': 213-279-6789'
+      # - email:
+      # - emailicon:
+    bre: 01809137
 
-  - name: Diana Petersen
+  - name: Hiep Do
     pic: 3
-    position: Lead Developer
+    position: Realtor, Architecture
     social:
       - title: facebook
         url: #
       - title: linkedin
         url: #
-    contact:
-      - phone:
-      - phoneicon:
-      - email:
-      - emailicon:
-    bre: 12345
+    contacts:
+      - phoneicon: phone
+      - phone: ': 714-589-4007'
+      # - email:
+      # - emailicon:
+    bre: 02049706
 
-  - name: Diana Petersen
+  - name: Michael Lee
     pic: 3
-    position: Lead Developer
+    position: Realtor
     social:
       - title: facebook
         url: #
       - title: linkedin
         url: #
-    contact:
-      - phone:
-      - phoneicon:
-      - email:
-      - emailicon:
-    bre: 12345
+    contacts:
+      - phoneicon: phone
+      - phone: ': 714-351-2120'
+      # - email:
+      # - emailicon:
+    bre: 01997760
 
-  - name: Diana Petersen
+  - name: Michael Lee
     pic: 3
-    position: Lead Developer
+    position: Realtor
     social:
       - title: facebook
         url: #
       - title: linkedin
         url: #
-    contact:
-      - phone:
-      - phoneicon:
-      - email:
-      - emailicon:
-    bre: 12345
+    contacts:
+      - phoneicon: phone
+      - phone: ': 714-351-2120'
+      # - email:
+      # - emailicon:
+    bre: 01997760
 
-  - name: Diana Petersen
+  - name: Michael Lee
     pic: 3
-    position: Lead Developer
+    position: Realtor
     social:
       - title: facebook
         url: #
       - title: linkedin
         url: #
-    contact:
-      - phone:
-      - phoneicon:
-      - email:
-      - emailicon:
-    bre: 12345
+    contacts:
+      - phoneicon: phone
+      - phone: ': 714-351-2120'
+      # - email:
+      # - emailicon:
+    bre: 01997760
+
+  - name: Michael Lee
+    pic: 3
+    position: Realtor
+    social:
+      - title: facebook
+        url: #
+      - title: linkedin
+        url: #
+    contacts:
+      - phoneicon: phone
+      - phone: ': 714-351-2120'
+      # - email:
+      # - emailicon:
+    bre: 01997760
+
+  - name: Michael Lee
+    pic: 3
+    position: Realtor
+    social:
+      - title: facebook
+        url: #
+      - title: linkedin
+        url: #
+    contacts:
+      - phoneicon: phone
+      - phone: ': 714-351-2120'
+      # - email:
+      # - emailicon:
+    bre: 01997760
+
+  - name: Michael Lee
+    pic: 3
+    position: Realtor
+    social:
+      - title: facebook
+        url: #
+      - title: linkedin
+        url: #
+    contacts:
+      - phoneicon: phone
+      - phone: ': 714-351-2120'
+      # - email:
+      # - emailicon:
+    bre: 01997760
 
 # Social networks usernames (many more available: linkedin, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
