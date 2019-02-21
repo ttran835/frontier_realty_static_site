@@ -28,16 +28,16 @@ $(document).ready(function() {
     ],
   });
   $('#team-carousel').slick({
+    rows: 2,
+    slidesPerRow: 4,
     centerPadding: '60px',
-    slidesToShow: 4,
-    slidesToScroll: 4,
     dots: true,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          rows: 2,
+          slidesPerRow: 3,
           infinite: true,
           dots: true,
         },
@@ -45,7 +45,8 @@ $(document).ready(function() {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
+          rows: 2,
+          slidesPerRow: 1,
           slidesToScroll: 2,
           dots: true,
         },
@@ -53,7 +54,8 @@ $(document).ready(function() {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1,
+          rows: 2,
+          slidesPerRow: 1,
           slidesToScroll: 1,
           dots: true,
         },

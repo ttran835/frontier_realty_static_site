@@ -13,37 +13,24 @@
       {% for team in site.people %}
       <div class="col-md-3">
         <div class="team-member material-ui">
-          <div
+          <img src="img/team/{{ team.pic }}.png" class="team-img" />
+          <!-- <div
             class="team-img"
-            style="background-image: url('img/team/{{ team.pic }}.jpg')"
-          ></div>
-          <h4>{{ team.name }}</h4>
+            style="background-image: url('img/team/{{ team.pic }}.png')"
+          ></div> -->
+          <!-- <h4>{{ team.name }}</h4>
           <p class="text-muted">{{ team.position }}</p>
-          <!-- <ul class="list-inline social-buttons">
-            {% for network in team.social %}
-            <li>
-              <a href="{{ network.url }}">
-                <i class="fab fa-{{ network.title }}"></i>
-              </a>
-            </li>
-            {% endfor %}
-          </ul> -->
-          <p>
-            {{ team.description }}
-          </p>
+          <p>BRE#: {{ team.bre }}</p> -->
+          {% for contact in team.contacts %}
+
+          <!-- <i class="fas fa-{{ contact.phoneicon }}">
+            <p>{{ contact.phone }}</p>
+          </i> -->
+
+          {% endfor %}
         </div>
       </div>
       {% endfor %}
     </div>
-
-    <!-- <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 text-center">
-        <p class="large text-muted">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque,
-          laboriosam veritatis, quos non quis ad perspiciatis, totam corporis
-          ea, alias ut unde.
-        </p>
-      </div>
-    </div> -->
   </div>
 </section>

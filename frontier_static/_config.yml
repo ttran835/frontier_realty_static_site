@@ -19,7 +19,8 @@ url: '' # the base hostname & protocol for your site, e.g. http://example.com
 host: localhost
 
 title: Frontier Realty
-email: info@frontierRealty.com
+email:
+  - email: info@frontierRealty.coms
 description: 'Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.'
 
 carousel:
@@ -66,115 +67,215 @@ team:
   - description: something something fake fake fake with a load of fake stuff for placeholder content.
 
 people:
-  - name: Kay Garland
-    pic: 1
-    position: Lead Designer
+  - name: Jack Luan Tran
+    pic: Jack
+    position: Broker/C.E.O
     social:
       - title: facebook
         url: #
       - title: linkedin
         url: #
-    description: something someone, who has worked at the company for a long time blah blah blah lead lead lead leader stuff
+    contacts:
+      - phoneicon: phone
+      - phone: ': 714-360-5098'
+      # - email:
+      # - emailicon:
+    bre: 01852802
 
-  - name: Kay Garland
-    pic: 1
-    position: Lead Designer
+  - name: Richard Le
+    pic: Richard
+    position: Realtor
     social:
       - title: facebook
         url: #
       - title: linkedin
         url: #
-    description: something someone, who has worked at the company for a long time blah blah blah lead lead lead leader stuff
+    contacts:
+      - phoneicon: phone
+      - phone: ': 714-468-7363'
+      # - email:
+      # - emailicon:
+    bre: 02044899
 
-  - name: Kay Garland
-    pic: 1
-    position: Lead Designer
+  - name: Carol Chau
+    pic: Carol
+    position: Realtor
     social:
       - title: facebook
         url: #
       - title: linkedin
         url: #
-    description: something someone, who has worked at the company for a long time blah blah blah lead lead lead leader stuff
+    contacts:
+      - phoneicon: phone
+      - phone: ': 714-858-4450'
+      # - email:
+      # - emailicon:
+    bre: 02010924
 
-  - name: Kay Garland
-    pic: 1
-    position: Lead Designer
+  - name: Trung Do
+    pic: Trung
+    position: Realtor
     social:
       - title: facebook
         url: #
       - title: linkedin
         url: #
-    description: something someone, who has worked at the company for a long time blah blah blah lead lead lead leader stuff
+    contacts:
+      - phoneicon: phone
+      - phone: ': 714-725-1615'
+      # - email:
+      # - emailicon:
+    bre: 02052647
 
-  - name: Larry Parker
-    pic: 2
-    position: Lead Marketer
+  - name: Molly Dinh
+    pic: Molly
+    position: Realtor
     social:
       - title: facebook
         url: #
       - title: linkedin
         url: #
-    description: something someone, who has worked at the company for a long time blah blah blah lead lead lead leader stuff
+    contacts:
+      - phoneicon: phone
+      - phone: ': 949-939-4470'
+      # - email:
+      # - emailicon:
+    bre: 02047175
 
-  - name: Diana Petersen
+  - name: Jason Tang
+    pic: Jason
+    position: Realtor
+    social:
+      - title: facebook
+        url: #
+      - title: linkedin
+        url: #
+    contacts:
+      - phoneicon: phone
+      - phone: ': 949-690-6229'
+      # - email:
+      # - emailicon:
+    bre: 01932186
+
+  - name: Linda Le
+    pic: Linda
+    position: Realtor
+    social:
+      - title: facebook
+        url: #
+      - title: linkedin
+        url: #
+    contacts:
+      - phoneicon: phone
+      - phone: ': 213-279-6789'
+      # - email:
+      # - emailicon:
+    bre: 01809137
+
+  - name: Hiep Do
+    pic: Hiep
+    position: Realtor, Architecture
+    social:
+      - title: facebook
+        url: #
+      - title: linkedin
+        url: #
+    contacts:
+      - phoneicon: phone
+      - phone: ': 714-589-4007'
+      # - email:
+      # - emailicon:
+    bre: 02049706
+
+  - name: Michael Lee
+    pic: Michael
+    position: Realtor
+    social:
+      - title: facebook
+        url: #
+      - title: linkedin
+        url: #
+    contacts:
+      - phoneicon: phone
+      - phone: ': 714-351-2120'
+      # - email:
+      # - emailicon:
+    bre: 01997760
+
+  - name: Michael Lee
     pic: 3
-    position: Lead Developer
+    position: Realtor
     social:
       - title: facebook
         url: #
       - title: linkedin
         url: #
-    description: something someone, who has worked at the company for a long time blah blah blah lead lead lead leader stuff
+    contacts:
+      - phoneicon: phone
+      - phone: ': 714-351-2120'
+      # - email:
+      # - emailicon:
+    bre: 01997760
 
-  - name: Diana Petersen
+  - name: Michael Lee
     pic: 3
-    position: Lead Developer
+    position: Realtor
     social:
       - title: facebook
         url: #
       - title: linkedin
         url: #
-    description: something someone, who has worked at the company for a long time blah blah blah lead lead lead leader stuff
+    contacts:
+      - phoneicon: phone
+      - phone: ': 714-351-2120'
+      # - email:
+      # - emailicon:
+    bre: 01997760
 
-  - name: Diana Petersen
+  - name: Michael Lee
     pic: 3
-    position: Lead Developer
+    position: Realtor
     social:
       - title: facebook
         url: #
       - title: linkedin
         url: #
-    description: something someone, who has worked at the company for a long time blah blah blah lead lead lead leader stuff
+    contacts:
+      - phoneicon: phone
+      - phone: ': 714-351-2120'
+      # - email:
+      # - emailicon:
+    bre: 01997760
 
-  - name: Diana Petersen
+  - name: Michael Lee
     pic: 3
-    position: Lead Developer
+    position: Realtor
     social:
       - title: facebook
         url: #
       - title: linkedin
         url: #
-    description: something someone, who has worked at the company for a long time blah blah blah lead lead lead leader stuff
+    contacts:
+      - phoneicon: phone
+      - phone: ': 714-351-2120'
+      # - email:
+      # - emailicon:
+    bre: 01997760
 
-  - name: Diana Petersen
+  - name: Michael Lee
     pic: 3
-    position: Lead Developer
+    position: Realtor
     social:
       - title: facebook
         url: #
       - title: linkedin
         url: #
-    description: something someone, who has worked at the company for a long time blah blah blah lead lead lead leader stuff
-
-  - name: Diana Petersen
-    pic: 3
-    position: Lead Developer
-    social:
-      - title: facebook
-        url: #
-      - title: linkedin
-        url: #
-    description: something someone, who has worked at the company for a long time blah blah blah lead lead lead leader stuff
+    contacts:
+      - phoneicon: phone
+      - phone: ': 714-351-2120'
+      # - email:
+      # - emailicon:
+    bre: 01997760
 
 # Social networks usernames (many more available: linkedin, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
