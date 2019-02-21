@@ -384,6 +384,11 @@ section h3.section-subheading {
   background-repeat: no-repeat;
 }
 
+#carousel img {
+  height: 100%;
+  width: 100%;
+}
+
 .slick-arrow {
   right: 0;
 }
