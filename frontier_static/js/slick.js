@@ -37,17 +37,17 @@ $(document).ready(function() {
         breakpoint: 1024,
         settings: {
           rows: 2,
-          slidesPerRow: 3,
+          slidesPerRow: 4,
           infinite: true,
           dots: true,
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 769,
         settings: {
           rows: 2,
-          slidesPerRow: 1,
-          slidesToScroll: 2,
+          slidesPerRow: 3,
+          slidesToScroll: 1,
           dots: true,
         },
       },
@@ -55,7 +55,7 @@ $(document).ready(function() {
         breakpoint: 480,
         settings: {
           rows: 2,
-          slidesPerRow: 1,
+          slidesPerRow: 2,
           slidesToScroll: 1,
           dots: true,
         },

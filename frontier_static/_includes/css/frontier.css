@@ -796,7 +796,8 @@ section h3.section-subheading {
 #team .team-img {
   cursor: pointer;
   background-size: cover;
-  height: 18rem;
+  height: 300px;
+  width: 100%;
   background-repeat: no-repeat;
 }
 
@@ -837,6 +838,26 @@ section h3.section-subheading {
 .team-member p {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .col-md-3 {
+    padding: 0;
+  }
+
+  #team #team-carousel .team-member {
+    margin-bottom: 0;
+  }
+
+  #team #team-carousel .team-member img {
+    height: 14rem;
+  }
+
+  #team #team-carousel .team-member h4,
+  #team #team-carousel .team-member p,
+  #team #team-carousel .team-member i {
+    display: none;
+  }
 }
 
 aside.clients img {
