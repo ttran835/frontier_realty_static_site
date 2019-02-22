@@ -12,17 +12,21 @@
     <div id="team-carousel">
       {% for team in site.people %}
       <div class="col-md-3">
-        <div class="team-member material-ui">
-          <img src="img/team/{{ team.pic }}.png" class="team-img" />
-          <h4>{{ team.name }}</h4>
-          <p class="text-muted">{{ team.position }}</p>
-          <p>BRE#: {{ team.bre }}</p>
-          {% for contact in team.contacts %}
-          <i class="fas fa-{{ contact.phoneicon }}">
-            <p>{{ contact.phone }}</p>
-          </i>
-
-          {% endfor %}
+        <div
+          class="team-member material-ui"
+          style="background-image: url('img/team/{{ team.pic }}.png')"
+        >
+          <!-- <img src="img/team/{{ team.pic }}.png" class="team-img" /> -->
+          <div class="team-member-info">
+            <h4>{{ team.name }}</h4>
+            <p class="text-muted">{{ team.position }}</p>
+            <p>BRE#: {{ team.bre }}</p>
+            {% for contact in team.contacts %}
+            <i class="fas fa-{{ contact.phoneicon }}">
+              <p>{{ contact.phone }}</p>
+            </i>
+            {% endfor %}
+          </div>
         </div>
       </div>
       {% endfor %}
