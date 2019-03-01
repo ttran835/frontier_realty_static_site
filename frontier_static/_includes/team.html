@@ -19,8 +19,8 @@
           <!-- <img src="img/team/{{ team.pic }}.png" class="team-img" /> -->
           <div class="team-member-info">
             <h4 class="header4">{{ team.name }}</h4>
-            <p class="text-muted">{{ team.position }}</p>
-            <p>BRE#: {{ team.bre }}</p>
+            <p>{{ team.position }}</p>
+            <p>LIC#: {{ team.bre }}</p>
             {% for contact in team.contacts %}
             <i class="fas fa-{{ contact.phoneicon }}">
               <p>{{ contact.phone }}</p>
