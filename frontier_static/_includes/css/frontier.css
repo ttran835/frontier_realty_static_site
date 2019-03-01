@@ -414,14 +414,6 @@ section h3.section-subheading {
   width: 100%;
 }
 
-.slick-arrow {
-  right: 0;
-}
-.slick-prev {
-  left: 0;
-  z-index: 10;
-}
-
 .service-heading {
   margin: 15px 0;
   text-transform: none;
@@ -847,7 +839,7 @@ section h3.section-subheading {
 
 .team-member {
   color: #fff;
-  margin-bottom: 50px;
+  margin-bottom: 15px;
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -858,6 +850,7 @@ section h3.section-subheading {
   margin-top: 25px;
   margin-bottom: 0;
   text-transform: none;
+  font-size: 1.2rem;
 }
 
 .team-member p {
@@ -869,7 +862,7 @@ section h3.section-subheading {
 .team-member-info {
   background-color: #0daded !important;
   position: relative;
-  top: 14.6rem;
+  top: 239px;
 }
 
 /* Team mediaQuery information */
@@ -898,13 +891,9 @@ section h3.section-subheading {
     display: none;
   }
 
-  .team-member-info h4 {
-    font-size: 1.2rem;
-  }
-
   .team-member-info {
     position: relative;
-    top: 11rem;
+    top: 177px;
     -webkit-transition: all 0.3s linear;
     -o-transition: all 0.3s linear;
     transition: all 0.3s linear;
@@ -912,7 +901,33 @@ section h3.section-subheading {
 
   .team-member:hover .team-member-info {
     position: relative;
-    top: 7.1rem;
+    top: 111px;
+  }
+
+  #team #team-carousel .slick-arrow {
+    right: -18px;
+  }
+
+  #team #team-carousel .slick-prev {
+    left: -18px;
+    z-index: 10;
+  }
+
+  #team-carousel .slick-prev:before,
+  #team-carousel .slick-next:before {
+    bottom: 28px;
+  }
+
+  #carousel .slick-prev:before,
+  #carousel .slick-next:before {
+    position: relative;
+    bottom: 0;
+    /* left: -2px; */
+    font-family: 'slick';
+    font-size: 50px;
+    /* background-color: white; */
+    border-radius: 50%;
+    line-height: 1;
   }
 }
 
@@ -921,13 +936,12 @@ aside.clients img {
 }
 
 section#contact {
-  background-color: #222;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 section#contact .section-heading {
-  color: #fff;
+  color: #000;
 }
 
 section#contact h3.section-subheading {
@@ -1152,4 +1166,63 @@ img::-moz-selection {
 
 body {
   webkit-tap-highlight-color: #fed136;
+}
+
+/* slick carousel adjustments */
+
+.slick-arrow {
+  right: 0;
+}
+.slick-prev {
+  left: 1px;
+  z-index: 10;
+}
+
+#team-carousel .slick-arrow {
+  right: -10px;
+}
+
+#team-carousel .slick-prev {
+  left: -10px;
+  z-index: 10;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  position: relative;
+  bottom: 35px;
+  /* left: -2px; */
+  font-family: 'slick';
+  font-size: 50px;
+  /* background-color: white; */
+  border-radius: 50%;
+  line-height: 1;
+}
+
+.slick-prev:before {
+  content: '‹';
+}
+[dir='rtl'] .slick-prev:before {
+  content: '›';
+}
+
+[dir='rtl'] .slick-next {
+  left: -10px;
+  top: 70px;
+  right: auto;
+}
+.slick-next:before {
+  content: '›';
+}
+[dir='rtl'] .slick-next:before {
+  content: '‹';
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: #0daded !important;
+}
+
+.slick-dots li button:before {
+  font-size: 10px;
 }
