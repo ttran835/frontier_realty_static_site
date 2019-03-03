@@ -1,3 +1,24 @@
+.example {
+  display: -ms-grid;
+  display: grid;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(white),
+    to(black)
+  );
+  background: -webkit-linear-gradient(top, white, black);
+  background: -o-linear-gradient(top, white, black);
+  background: linear-gradient(to bottom, white, black);
+}
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -10,7 +31,7 @@ body {
 
 .slick-prev:before,
 .slick-next:before {
-  color: #0daded !important;
+  color: #007cdc !important;
 }
 
 .text-muted {
@@ -18,7 +39,7 @@ body {
 }
 
 .text-primary {
-  color: #0daded !important;
+  color: #007cdc !important;
 }
 
 p {
@@ -94,12 +115,12 @@ h6 {
 }
 
 .btn-primary {
-  border-color: #0daded;
+  border-color: #007cdc;
   text-transform: uppercase;
   font-family: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif';
   font-weight: 700;
   color: #fff;
-  background-color: #0daded;
+  background-color: #007cdc;
 }
 
 .btn-primary:hover,
@@ -107,9 +128,9 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-  border-color: #0daded;
+  border-color: #007cdc;
   color: #fff;
-  background-color: #0daded;
+  background-color: #007cdc;
 }
 
 .btn-primary:active,
@@ -133,25 +154,25 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  border-color: #0daded;
-  background-color: #0daded;
+  border-color: #007cdc;
+  background-color: #007cdc;
 }
 
 .btn-primary .badge {
-  color: #0daded;
+  color: #007cdc;
   background-color: #fff;
 }
 
 .btn-xl {
   padding: 20px 40px;
-  border-color: #0daded;
+  border-color: #007cdc;
   border-radius: 3px;
   text-transform: uppercase;
   font-family: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif';
   font-size: 18px;
   font-weight: 700;
   color: #fff;
-  background-color: #0daded;
+  background-color: #007cdc;
 }
 
 .btn-xl:hover,
@@ -159,9 +180,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-  border-color: #0daded;
+  border-color: #007cdc;
   color: #fff;
-  background-color: #0daded;
+  background-color: #007cdc;
 }
 
 .btn-xl:active,
@@ -185,12 +206,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-  border-color: #0daded;
-  background-color: #0daded;
+  border-color: #007cdc;
+  background-color: #007cdc;
 }
 
 .btn-xl .badge {
-  color: #0daded;
+  color: #007cdc;
   background-color: #fff;
 }
 
@@ -202,7 +223,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar .navbar-brand {
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   /* font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; */
-  color: #0daded;
+  color: #007cdc;
   padding: 15px;
 }
 
@@ -210,7 +231,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar .navbar-brand:focus,
 .navbar .navbar-brand:active,
 .navbar .navbar-brand.active {
-  color: #0daded;
+  color: #007cdc;
 }
 
 .navbar .navbar-collapse {
@@ -218,8 +239,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar .navbar-toggle {
-  border-color: #0daded;
-  background-color: #0daded;
+  border-color: #007cdc;
+  background-color: #007cdc;
 }
 
 .navbar .navbar-toggle .icon-bar {
@@ -414,14 +435,6 @@ section h3.section-subheading {
   width: 100%;
 }
 
-.slick-arrow {
-  right: 0;
-}
-.slick-prev {
-  left: 0;
-  z-index: 10;
-}
-
 .service-heading {
   margin: 15px 0;
   text-transform: none;
@@ -446,7 +459,7 @@ section h3.section-subheading {
 }
 
 #education .material-ui {
-  background-color: #0daded !important;
+  background-color: #007cdc !important;
   cursor: pointer;
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
     0 1px 2px rgba(0, 0, 0, 0.24);
@@ -621,15 +634,15 @@ section h3.section-subheading {
 }
 
 /* .timeline:before {
-  content: "";
-  position: absolute;
-  top: 120px;
-  bottom: 0;
-  left: 40px;
-  width: 100rem;
-  height: 2px;
-  margin-left: -1.5px;
-  background-color: #f1f1f1;
+content: "";
+position: absolute;
+top: 120px;
+bottom: 0;
+left: 40px;
+width: 100rem;
+height: 2px;
+margin-left: -1.5px;
+background-color: #f1f1f1;
 } */
 
 .timeline > li {
@@ -840,14 +853,14 @@ section h3.section-subheading {
 }
 
 /* #team .material-ui:hover {
-  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
-    0 10px 10px rgba(0, 0, 0, 0.22);
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+-webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+  0 10px 10px rgba(0, 0, 0, 0.22);
+box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 } */
 
 .team-member {
   color: #fff;
-  margin-bottom: 50px;
+  margin-bottom: 15px;
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -858,6 +871,7 @@ section h3.section-subheading {
   margin-top: 25px;
   margin-bottom: 0;
   text-transform: none;
+  font-size: 1.2rem;
 }
 
 .team-member p {
@@ -867,9 +881,9 @@ section h3.section-subheading {
 }
 
 .team-member-info {
-  background-color: #0daded !important;
+  background-color: #007cdc !important;
   position: relative;
-  top: 14.6rem;
+  top: 239px;
 }
 
 /* Team mediaQuery information */
@@ -898,13 +912,9 @@ section h3.section-subheading {
     display: none;
   }
 
-  .team-member-info h4 {
-    font-size: 1.2rem;
-  }
-
   .team-member-info {
     position: relative;
-    top: 11rem;
+    top: 177px;
     -webkit-transition: all 0.3s linear;
     -o-transition: all 0.3s linear;
     transition: all 0.3s linear;
@@ -912,7 +922,44 @@ section h3.section-subheading {
 
   .team-member:hover .team-member-info {
     position: relative;
-    top: 7.1rem;
+    top: 111px;
+  }
+
+  #team #team-carousel .slick-arrow {
+    right: -18px;
+  }
+
+  #team #team-carousel .slick-prev {
+    left: -18px;
+    z-index: 10;
+  }
+
+  #team-carousel .slick-prev:before,
+  #team-carousel .slick-next:before {
+    bottom: 28px;
+    position: relative;
+    /* left: -2px; */
+    font-family: 'slick';
+    font-size: 50px;
+    /* background-color: white; */
+    border-radius: 50%;
+    line-height: 1;
+  }
+
+  #carousel .slick-prev:before,
+  #carousel .slick-next:before {
+    position: relative;
+    bottom: 0;
+    /* left: -2px; */
+    font-family: 'slick';
+    font-size: 50px;
+    /* background-color: white; */
+    border-radius: 50%;
+    line-height: 1;
+  }
+
+  #carousel .slick-arrow {
+    right: 0px;
   }
 }
 
@@ -921,13 +968,12 @@ aside.clients img {
 }
 
 section#contact {
-  background-color: #222;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 section#contact .section-heading {
-  color: #fff;
+  color: #000;
 }
 
 section#contact h3.section-subheading {
@@ -935,7 +981,11 @@ section#contact h3.section-subheading {
 }
 
 section#contact p {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
   align-items: flex-end;
 }
 
@@ -1152,4 +1202,71 @@ img::-moz-selection {
 
 body {
   webkit-tap-highlight-color: #fed136;
+}
+
+/* slick carousel adjustments */
+
+.slick-arrow {
+  right: 18px;
+}
+.slick-prev {
+  left: 1px;
+  z-index: 10;
+}
+
+#team-carousel .slick-arrow {
+  right: -10px;
+}
+
+#team-carousel .slick-prev {
+  left: -30px;
+  z-index: 10;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  position: relative;
+  bottom: 80px;
+  /* left: -2px; */
+  font-family: 'slick';
+  font-size: 115px;
+  /* background-color: white; */
+  border-radius: 50%;
+  line-height: 1;
+}
+
+.slick-prev:before {
+  content: '‹';
+}
+[dir='rtl'] .slick-prev:before {
+  content: '›';
+}
+
+[dir='rtl'] .slick-next {
+  left: -10px;
+  top: 70px;
+  right: auto;
+}
+.slick-next:before {
+  content: '›';
+}
+[dir='rtl'] .slick-next:before {
+  content: '‹';
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: #007cdc !important;
+}
+
+.slick-dots li button:before {
+  font-size: 10px;
+}
+
+.font {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 12px;
+  font-weight: 400;
 }
