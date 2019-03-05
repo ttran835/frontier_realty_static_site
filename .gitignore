@@ -6,6 +6,7 @@ img
 
 _config.yml
 node_modules/ 
+_data/
 
 Gemfile
 Gemfile.lock
