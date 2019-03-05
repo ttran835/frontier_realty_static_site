@@ -1,0 +1,131 @@
+# This is where you will be adding new team-members or removing old ones.
+# Current format follows:
+# - name: Jack Luan Tran
+# pic: Jack
+# position: Broker/C.E.O
+# contacts:
+#   - phoneicon: phone
+#   - phone: ': 714-360-5098'
+# bre: 01852802
+
+# Pictures:
+# Please be sure the images are saved in jpeg for performance
+# Naming convention should be first name of agents
+# if not file is not jpeg or filename is not agent, it will not render
+# image ratio is 2:3 with width of 247.5 and height of 352.
+# If aspect ratio not met, agent's images will look stretch
+
+# Example:
+# - pic: nameofimage
+
+- name: Jack Luan Tran
+  pic: Jack
+  position: Broker/C.E.O
+  contacts:
+    - phoneicon: phone
+    - phone: ': 714-360-5098'
+  bre: 01852802
+
+- name: Richard Le
+  pic: Richard
+  position: Realtor
+  contacts:
+    - phoneicon: phone
+    - phone: ': 714-468-7363'
+  bre: 02044899
+
+- name: Carol Chau
+  pic: Carol
+  position: Realtor
+  contacts:
+    - phoneicon: phone
+    - phone: ': 714-858-4450'
+  bre: 02010924
+
+- name: Trung Do
+  pic: Trung
+  position: Realtor
+  contacts:
+    - phoneicon: phone
+    - phone: ': 714-725-1615'
+  bre: 02052647
+
+- name: Molly Dinh
+  pic: Molly
+  position: Realtor
+  contacts:
+    - phoneicon: phone
+    - phone: ': 949-939-4470'
+  bre: 02047175
+
+- name: Jason Tang
+  pic: Jason
+  position: Realtor
+  contacts:
+    - phoneicon: phone
+    - phone: ': 949-690-6229'
+  bre: 01932186
+
+- name: Linda Le
+  pic: Linda
+  position: Realtor
+  contacts:
+    - phoneicon: phone
+    - phone: ': 213-279-6789'
+  bre: 01809137
+
+- name: Hiep Do
+  pic: Hiep
+  position: Realtor, Architecture
+  contacts:
+    - phoneicon: phone
+    - phone: ': 714-589-4007'
+  bre: 02049706
+
+- name: Michael Lee
+  pic: Michael
+  position: Realtor
+  contacts:
+    - phoneicon: phone
+    - phone: ': 714-351-2120'
+  bre: 01997760
+
+- name: Michael Lee
+  pic: 3
+  position: Realtor
+  contacts:
+    - phoneicon: phone
+    - phone: ': 714-351-2120'
+  bre: 01997760
+
+- name: Michael Lee
+  pic: 3
+  position: Realtor
+  contacts:
+    - phoneicon: phone
+    - phone: ': 714-351-2120'
+  bre: 01997760
+
+- name: Michael Lee
+  pic: 3
+  position: Realtor
+  contacts:
+    - phoneicon: phone
+    - phone: ': 714-351-2120'
+  bre: 01997760
+
+- name: Michael Lee
+  pic: 3
+  position: Realtor
+  contacts:
+    - phoneicon: phone
+    - phone: ': 714-351-2120'
+  bre: 01997760
+
+- name: Michael Lee
+  pic: 3
+  position: Realtor
+  contacts:
+    - phoneicon: phone
+    - phone: ': 714-351-2120'
+  bre: 01997760
