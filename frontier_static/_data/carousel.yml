@@ -1,0 +1,13 @@
+# To add new image, you will have to add another -pic property
+# and set it to the image name.
+# Please be sure the images are saved in jpeg for performance
+# if not, it will not render properly
+
+# Example:
+# - pic: nameofimage
+
+- pic: 2
+- pic: 3
+- pic: 4
+- pic: 5
+- pic: 6

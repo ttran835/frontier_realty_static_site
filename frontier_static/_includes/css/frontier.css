@@ -34,6 +34,10 @@ body {
   color: #007cdc !important;
 }
 
+a {
+  color: #007cdc !important;
+}
+
 .text-muted {
   color: #777;
 }
@@ -1048,6 +1052,7 @@ section#contact .contact-row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-direction: column;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -1055,9 +1060,20 @@ section#contact .contact-row {
   margin-bottom: 50px;
 }
 
+section#contact h5 {
+  margin: 10px 0;
+}
+
+#frontier-footer {
+  background-color: #222;
+  color: #fff;
+  padding: 0;
+}
+
 footer {
-  padding: 25px 0;
+  padding: 0;
   text-align: center;
+  background-color: #222;
 }
 
 footer span.copyright {
