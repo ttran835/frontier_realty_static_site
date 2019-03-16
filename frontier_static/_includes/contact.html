@@ -5,20 +5,16 @@
         <h2 class="section-heading">{{ site.contactTitle }}</h2>
 
         <h3 class="section-subheading text-muted">
-          Thank you for visiting our site! <br />
-          If you would like for our office to reach out regarding to any
-          question or concern, please fill out the form below. <br />
+          {{ site.contactSubTitle }}
         </h3>
 
         <h5>Office Address</h5>
-        {% for network in site.address %}
 
-        {{ network.street }}
-        {{ network.state }}
-        <br />
+        <a href="http://maps.google.com/?q={{ network.direction }}">
+          {% for network in site.address %}
 
-        <a href="http://maps.google.com/?q={{ network.direction }}"
-          >Direction</a
+          {{ network.street }}
+          {{ network.state }}</a
         >
         {% endfor %}
         <h5>Direct Phone</h5>
